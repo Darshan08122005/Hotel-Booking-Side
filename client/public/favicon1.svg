@@ -1,0 +1,187 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <!-- Standardized Window Template -->
+    <g id="window">
+      <rect width="40" height="50" fill="#593626" />
+      <!-- Glass Panes -->
+      <rect x="4" y="4" width="14" height="22" fill="#bde0f1" />
+      <rect x="22" y="4" width="14" height="22" fill="#bde0f1" />
+      <rect x="4" y="30" width="14" height="16" fill="#bde0f1" />
+      <rect x="22" y="30" width="14" height="16" fill="#bde0f1" />
+    </g>
+
+    <!-- Small Star for the Sign -->
+    <g id="star">
+      <polygon points="0,-6 1.76,-0.57 7.5,-0.57 2.87,2.79 4.64,8.43 0,5.07 -4.64,8.43 -2.87,2.79 -7.5,-0.57 -1.76,-0.57" fill="#f7ddc1" transform="scale(0.55)"/>
+    </g>
+  </defs>
+
+  <!-- =============================== -->
+  <!-- 1. BASE / GROUND                -->
+  <!-- =============================== -->
+  <rect x="100" y="500" width="600" height="16" rx="8" fill="#5f2812" />
+
+  <!-- =============================== -->
+  <!-- 2. WINGS (Back Left & Right)    -->
+  <!-- =============================== -->
+  
+  <!-- Left Wing Block & Shadow -->
+  <rect x="130" y="250" width="150" height="250" fill="#d25e30" />
+  
+  <!-- Left Wing Brick Accents -->
+  <g fill="#b84620">
+    <rect x="140" y="320" width="15" height="8" rx="2"/>
+    <rect x="240" y="350" width="20" height="8" rx="2"/>
+    <rect x="150" y="470" width="15" height="8" rx="2"/>
+  </g>
+
+  <!-- Left Wing Windows -->
+  <use href="#window" x="150" y="280" />
+  <use href="#window" x="220" y="280" />
+  <use href="#window" x="150" y="415" />
+  <use href="#window" x="220" y="415" />
+
+  <!-- Left Wing Cornices -->
+  <rect x="130" y="250" width="150" height="15" fill="#e0a680" /> <!-- Top Shadow -->
+  <rect x="120" y="240" width="170" height="10" fill="#f6d2b0" /> <!-- Top Highlight -->
+  
+  <rect x="130" y="385" width="150" height="15" fill="#e0a680" /> <!-- Mid Shadow -->
+  <rect x="120" y="375" width="170" height="10" fill="#f6d2b0" /> <!-- Mid Highlight -->
+
+
+  <!-- Right Wing Block & Shadow -->
+  <rect x="520" y="250" width="150" height="250" fill="#d25e30" />
+  <rect x="650" y="250" width="20" height="250" fill="#b84620" /> <!-- Right Edge Shadow -->
+  
+  <!-- Right Wing Brick Accents -->
+  <g fill="#b84620">
+    <rect x="530" y="310" width="15" height="8" rx="2"/>
+    <rect x="630" y="360" width="20" height="8" rx="2"/>
+    <rect x="540" y="480" width="15" height="8" rx="2"/>
+  </g>
+
+  <!-- Right Wing Windows -->
+  <use href="#window" x="540" y="280" />
+  <use href="#window" x="610" y="280" />
+  <use href="#window" x="540" y="415" />
+  <use href="#window" x="610" y="415" />
+
+  <!-- Right Wing Cornices -->
+  <rect x="520" y="250" width="150" height="15" fill="#e0a680" /> <!-- Top Shadow -->
+  <rect x="510" y="240" width="170" height="10" fill="#f6d2b0" /> <!-- Top Highlight -->
+  
+  <rect x="520" y="385" width="150" height="15" fill="#e0a680" /> <!-- Mid Shadow -->
+  <rect x="510" y="375" width="170" height="10" fill="#f6d2b0" /> <!-- Mid Highlight -->
+
+
+  <!-- =============================== -->
+  <!-- 3. CENTER BACK TOWER            -->
+  <!-- =============================== -->
+  
+  <!-- Center Back Block & Shadow -->
+  <rect x="280" y="180" width="240" height="320" fill="#d25e30" />
+  <rect x="500" y="180" width="20" height="170" fill="#b84620" /> <!-- Right Edge Shadow -->
+
+  <!-- Center Back Brick Accents -->
+  <g fill="#b84620">
+    <rect x="290" y="240" width="15" height="8" rx="2"/>
+    <rect x="470" y="250" width="20" height="8" rx="2"/>
+    <rect x="300" y="320" width="20" height="8" rx="2"/>
+  </g>
+
+  <!-- Center Back Windows -->
+  <use href="#window" x="305" y="210" />
+  <use href="#window" x="380" y="210" />
+  <use href="#window" x="455" y="210" />
+
+  <use href="#window" x="305" y="280" />
+  <use href="#window" x="380" y="280" />
+  <use href="#window" x="455" y="280" />
+
+  <!-- Center Back Cornice -->
+  <rect x="280" y="180" width="240" height="15" fill="#e0a680" /> <!-- Top Shadow -->
+  <rect x="270" y="170" width="260" height="10" fill="#f6d2b0" /> <!-- Top Highlight -->
+
+
+  <!-- =============================== -->
+  <!-- 4. FRONT CENTER PORCH           -->
+  <!-- =============================== -->
+  
+  <!-- Porch Block & Shadow -->
+  <rect x="250" y="350" width="300" height="150" fill="#d25e30" />
+  <rect x="530" y="350" width="20" height="150" fill="#b84620" /> <!-- Right Edge Shadow -->
+
+  <!-- Porch Brick Accents -->
+  <g fill="#b84620">
+    <rect x="270" y="380" width="20" height="8" rx="2"/>
+    <rect x="500" y="460" width="20" height="8" rx="2"/>
+    <rect x="300" y="470" width="15" height="8" rx="2"/>
+  </g>
+
+  <!-- Porch Windows -->
+  <use href="#window" x="285" y="410" />
+  <use href="#window" x="475" y="410" />
+
+  <!-- Porch Cornice -->
+  <rect x="250" y="350" width="300" height="15" fill="#e0a680" /> <!-- Shadow -->
+  <rect x="240" y="338" width="320" height="12" fill="#f6d2b0" /> <!-- Highlight -->
+
+  <!-- Main Entrance Door -->
+  <rect x="360" y="390" width="80" height="110" fill="#4d2b18" /> <!-- Door Frame -->
+  <rect x="364" y="394" width="34" height="106" fill="#693c22" /> <!-- Left Door -->
+  <rect x="402" y="394" width="34" height="106" fill="#693c22" /> <!-- Right Door -->
+
+  <!-- Door Handles -->
+  <rect x="390" y="450" width="3" height="15" fill="#f7ddc1" />
+  <rect x="407" y="450" width="3" height="15" fill="#f7ddc1" />
+
+  <!-- Door Glass Panels -->
+  <g fill="#3d1d0c">
+    <!-- Left -->
+    <rect x="370" y="402" width="22" height="16" />
+    <rect x="370" y="424" width="22" height="16" />
+    <rect x="370" y="446" width="22" height="16" />
+    <!-- Right -->
+    <rect x="408" y="402" width="22" height="16" />
+    <rect x="408" y="424" width="22" height="16" />
+    <rect x="408" y="446" width="22" height="16" />
+  </g>
+
+
+  <!-- =============================== -->
+  <!-- 5. TREES                        -->
+  <!-- =============================== -->
+  
+  <!-- Left Tree -->
+  <rect x="328" y="470" width="4" height="30" fill="#4d2b18" /> <!-- Trunk -->
+  <ellipse cx="330" cy="445" rx="16" ry="32" fill="#c6d54d" /> <!-- Bush Light -->
+  <path d="M 330 413 A 16 32 0 0 1 346 445 A 16 32 0 0 1 330 477 Z" fill="#a9b83e" /> <!-- Bush Shadow -->
+
+  <!-- Right Tree -->
+  <rect x="468" y="470" width="4" height="30" fill="#4d2b18" /> <!-- Trunk -->
+  <ellipse cx="470" cy="445" rx="16" ry="32" fill="#c6d54d" /> <!-- Bush Light -->
+  <path d="M 470 413 A 16 32 0 0 1 486 445 A 16 32 0 0 1 470 477 Z" fill="#a9b83e" /> <!-- Bush Shadow -->
+
+
+  <!-- =============================== -->
+  <!-- 6. ROOF SIGN                    -->
+  <!-- =============================== -->
+  
+  <!-- Sign Supports -->
+  <rect x="340" y="140" width="8" height="30" fill="#4d2b18" />
+  <rect x="452" y="140" width="8" height="30" fill="#4d2b18" />
+  
+  <!-- Sign Board -->
+  <rect x="300" y="90" width="200" height="50" rx="5" fill="#693c22" />
+  
+  <!-- Sign Text -->
+  <text x="400" y="130" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="30" font-weight="900" fill="#f7ddc1" text-anchor="middle" letter-spacing="2">HOTEL</text>
+  
+  <!-- Sign Stars -->
+  <use href="#star" x="360" y="102" />
+  <use href="#star" x="380" y="102" />
+  <use href="#star" x="400" y="102" />
+  <use href="#star" x="420" y="102" />
+  <use href="#star" x="440" y="102" />
+
+</svg>
